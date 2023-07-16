@@ -16,10 +16,15 @@
 
 .img-cover1 {
   width: 100%;
-  height: auto;
-  object-fit: cover;
-  position: absolute;
+  height: 85vh; /* Set the height of the container to 100% of the viewport height */
+  overflow: hidden;
+  position: relative;
   z-index: 2;
+}
+
+.car-img{
+  height: auto;
+  object-fit: contain;
 }
 
 .display-section {
@@ -71,9 +76,9 @@
   display: flex;
 }
 
-.car-img {
-  height: 36em;
-}
+/* .car-img {
+  height: 3em;
+} */
 
 .scroll-change-animation {
   overflow: hidden;
