@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
+import { useState } from 'react';
 import './App.css';
+import Display from './Components/display';
+import Header from './Components/header';
+import EndCover from './Components/endCover';
 
 function App() {
+  const [isMenu,setIsMenu] = useState(false)
+  const [isEnd,setIsEnd] = useState(false)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!isEnd?
+      <>
+      <Header setIsMenu={setIsMenu}/>
+      <Display isMenu={isMenu} setIsEnd={setIsEnd}/>
+      </>
+      :<EndCover/>
+      }
     </div>
   );
 }
