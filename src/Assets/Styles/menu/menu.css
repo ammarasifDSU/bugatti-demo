@@ -1,42 +1,41 @@
-.menu{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    height: 35rem;
-    padding-left: 1.5rem;
-    padding-top: 30px;
-
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 35rem;
+  padding-left: 1.5rem;
+  padding-top: 30px;
 }
 
-.menu-item{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
-.menu h2{
-    color: #BBBBBB;
+.menu h2 {
+  color: #bbbbbb;
 }
 
 .submenu {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    padding-top: 5px;
-    margin-left: 20px;
-  }
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-top: 5px;
+  margin-left: 20px;
+}
 
-.submenu label{
-    font-size: 0.8rem;
+.submenu label {
+  font-size: 0.8rem;
 }
 
 @media (max-width: 767px) {
-    .menu-item h2{
-        font-size: 1rem;
-    }
-    .submenu {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-      }
+  .menu-item h2 {
+    font-size: 1rem;
+  }
+  .submenu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }

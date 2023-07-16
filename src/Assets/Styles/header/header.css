@@ -1,65 +1,56 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent;
-    padding-left: 15px;
-    padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
-  }
-  
-  /* Styles for left section */
-  .header-left {
-    flex: 1;
-  }
-  
-  /* Styles for nav icon image */
-  .nav-icon {
-    width: 30px;
-    height: 30px;
-  }
+.header-left {
+  flex: 1;
+}
 
-  .loc-icon{
-    width: 25px;
-    height: 25px;
-  }
+.nav-icon {
+  width: 30px;
+  height: 30px;
+}
 
-  .loc-label{
-    text-decoration: underline;
-    color: #fff;
-    margin-right: 8px;
-    margin-top: 2px;
-  }
-  
-  /* Styles for center section */
-  .header-center {
-    flex: 1;
-    text-align: center;
-  }
-  
-  /* Styles for logo image */
-  .logo {
-    width: 7rem;
-    height: 4rem;
-  }
-  
-  /* Styles for right section */
-  .header-right {
-    flex: 1;
-    text-align: right;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.loc-icon {
+  width: 25px;
+  height: 25px;
+}
 
-  }
-  
-  /* Styles for button */
-  .header-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
+.loc-label {
+  text-decoration: underline;
+  color: #fff;
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+.header-center {
+  flex: 1;
+  text-align: center;
+}
+
+.logo {
+  width: 7rem;
+  height: 4rem;
+}
+
+.header-right {
+  flex: 1;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

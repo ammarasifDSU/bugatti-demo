@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
- 
 }
 
 .App {
@@ -12,7 +11,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.end-cover{
+.end-cover {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +26,7 @@
   transform: translateY(0%);
 }
 
-.end-cover-img{
+.end-cover-img {
   max-width: 100%;
   height: 90%;
 }
-

@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
-import EndCoverImg from "../../Assets/Images/new-logo.png"
+import React, { useState } from "react";
+import EndCoverImg from "../../Assets/Images/new-logo.png";
 
 const EndCover = () => {
-
-    const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
   const handleVisibility = () => {
     setIsVisible(true);
@@ -11,12 +10,16 @@ const EndCover = () => {
 
   return (
     <>
-    <div className={`end-cover ${isVisible ? 'visible' : ''}`}>
-    <img src={EndCoverImg} alt="End Cover Image" className='end-cover-img' onLoad={handleVisibility}/>
-    </div>
-      
+      <div className={`end-cover ${isVisible ? "visible" : ""}`}>
+        <img
+          src={EndCoverImg}
+          alt="End Cover Image"
+          className="end-cover-img"
+          onLoad={handleVisibility}
+        />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default EndCover
+export default EndCover;

@@ -14,11 +14,11 @@ import {
   pararaph5,
   pararaph6,
 } from "../../Utils/contants";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Menu from "../menu";
 
-const Display = ({ isMenu,setIsEnd }) => {
+const Display = ({ isMenu, setIsEnd }) => {
   const [selectedImage, setSelectedImage] = useState(0);
   const [selectedSection, setSelectedSection] = useState(0);
   const [currentParagraphIndex, setCurrentParagraphIndex] = useState(0);
@@ -39,7 +39,7 @@ const Display = ({ isMenu,setIsEnd }) => {
     if (selectedSection == 1 && selectedImage == 2) {
       setSelectedImage(0);
       setSelectedSection(0);
-      setIsEnd(true)
+      setIsEnd(true);
       return;
     }
     if (selectedImage == 2) {
